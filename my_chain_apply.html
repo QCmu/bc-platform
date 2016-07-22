@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" class="uk-height-1-1">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Apply a New Chain</title>
+        <link rel="stylesheet" href="css/uikit.almost-flat.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/uikit.docs.min.css">
+        <script src="js/jquery-3.0.0.js"></script>
+        <script src="js/uikit.min.js"></script>
+    </head>
+
+    <body class="uk-height-1-1">
+    
+            <div style="width: 350px;">
+
+            <div class="uk-panel uk-panel-box uk-panel-header">
+
+                <div class="uk-panel-title">Apply a new chain</div>
+
+                <form class="uk-form uk-form-stacked" >
+                    
+                    <div class="uk-form-row">
+                        <label for="form-edit-name" class="uk-form-label">Name</label>
+                        <div class="uk-form-controls">
+                        <input id="form-edit-name" class="uk-width-1-1 uk-form-large" type="text" placeholder="Chain1">
+                        </div>
+                    </div>
+
+
+                    <div class="uk-form-row uk-form-horizontal">
+                 
+                    <label class=" uk-form-label uk-form-controls-text">Consensus Plugin </label>
+                    <select>
+                    <option>noops</option>
+                    <option>pbft</option>
+                    </select>
+                    </div>
+             
+
+                <div class="uk-form-row uk-form-horizontal">
+                    <label class="uk-form-label uk-form-controls-text">Consensus Mode </label>
+                    
+                  
+                    <select>
+                    <option>classic</option>
+                    <option>batch</option>
+                    <option>sieve</option>
+                    </select>
+                   
+                 
+                </div>
+
+                <div class="uk-form-row uk-form-horizontal">
+     
+                    <label class="uk-form-label uk-form-controls-text">Size</label>
+
+                    <select>
+                    <option>4</option>
+                    <option>6</option>
+                    </select><span class="uk-form-help-inline">Nodes</span>
+                    
+                </div>
+
+
+
+
+
+                    <div class="uk-form-row">
+                        <label for="form-edit-description" class="uk-form-label">Description</label>
+                        <div class="uk-form-controls">
+                        <textarea id="form-edit-description" class="uk-width-1-1 uk-form-large" type="text" placeholder="Describe your chain"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="uk-form-row uk-float-right">
+                        <a  class="uk-button uk-button-primary button-blue" href="#">Apply</a>
+                        <a  class="uk-button " href="#">Cancel</a>
+                    </div>
+                    <div class="uk-form-row">
+                    </div>
+                   
+                </form>
+                </div>
+
+            </div>
+
+            
+
+
+    </body>
+
+</html>

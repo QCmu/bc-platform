@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="401px" height="82px" viewBox="0 0 401 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop Portrait</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal">
+        <g id="Desktop-Portrait" fill="#FFFFFF">
+            <text id="IBM-Blockchain" font-family="HelveticaNeue, Helvetica Neue" font-size="30">
+                <tspan x="40" y="40">IBM Blockchain</tspan>
+            </text>
+            <text id="By-Hyperledger-Fabri" font-family="OpenSans, Open Sans" font-size="18.2999992">
+                <tspan x="41" y="65">By Hyperledger Fabric</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
